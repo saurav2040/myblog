@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Myblog",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "articles/test.html",
+    "href": "articles/test.html",
+    "title": "The Shell",
+    "section": "",
+    "text": "a demo\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\n\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\n\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\n\nplt.show()"
+  },
+  {
+    "objectID": "articles/test.html#polar-axis",
+    "href": "articles/test.html#polar-axis",
+    "title": "The Shell",
+    "section": "",
+    "text": "a demo\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\n\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\n\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\n\nplt.show()"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
