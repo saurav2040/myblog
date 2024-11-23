@@ -5,6 +5,9 @@
     ],
     "archive.qmd": [
       "posts/**/*.qmd"
+    ],
+    "TIL.qmd": [
+      "posts/TIL"
     ]
   }
 }

@@ -5,16 +5,23 @@ project:
 website:
   title: "Saurav Singh"
   navbar:
+    left:
+      - text: About me
+        href: about.qmd
+      - text: Blog
+        href: index.qmd
+      - text: TIL
+        href: TIL.qmd
+      
     right:
-      - about.qmd
       - icon: github
         href: https://github.com/saurav2040
       - icon: twitter
-        href: https://twitter.com/saurav2023
+        href: https://x.com/saurav2023
       - archive.qmd
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
 
 
