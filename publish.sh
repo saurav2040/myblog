@@ -1,5 +1,5 @@
 #!/bin/bash
-quarto render
+quarto render --output-dir docs
 git add .
 git commit -m "Update blog content"
 git push origin main
